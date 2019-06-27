@@ -9,7 +9,7 @@ metadata:
       kind: Mapping
       name: vote-ui_mapping
       prefix: / 
-      service: vote-vote:80
+      service: vote-vote.default:80
   labels:
     chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
 spec:
