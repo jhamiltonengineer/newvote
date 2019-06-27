@@ -10,7 +10,7 @@
             "name": "postgres",
             "tag": "9.4",
             "ports": "5432"
-        }
+         }
       }
    }
  }
